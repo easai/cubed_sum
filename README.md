@@ -1,6 +1,11 @@
 ## cubed_sum
 
-The `cubed_sum` calculates the cubic sum of numbers within a range. The `parity` argument specifies whether the term is added when it is odd, even, or both. Generate example usages of the function when the parity is set to odd, even, or both. Include cases when the range starts with odd or even numbers.
+The `cubed_sum` calculates the sum of cubes for a specified range. The naive implementation is just adding cubed numbers. The time complexity is O(n). A more efficient method would involve using the mathematical formula for the sum of cubes, which can compute the result in constant time O(1).
+
+Additinally, the `cubed_sum` can calculates the even and odd sums of cubes.
+
+The definition of the sum of cubes and related formulas, click below:
+[The sum of cubes](https://github.com/easai/cubed_sum/blob/main/cubed_sum.ipynb)
 
 ### Installation
 
